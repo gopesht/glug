@@ -1,0 +1,154 @@
+
+
+#carousel_main div img{
+	width: 80%;
+	margin-left: 9%;
+	height: 300px;
+
+}
+
+#myTab {
+	margin-left: 9%;
+
+}
+#carousel_btn{
+	margin-right: 10%;
+
+}
+.body{
+
+	background-color: #C0C0C0;
+}
+.footer
+{
+height:5%;
+width:100%;
+position:fixed;
+bottom:0;
+background-color:#C0C0C0;
+border-top:2px groove #A7A7A7;
+z-index:3;
+}
+.twit
+{
+position:absolute;
+height:30px;
+right:4%;
+margin-top:2px;
+}
+.fb
+{
+height:30px;
+right:8%;
+margin-top:2px;
+position:absolute;
+}
+#fb_grey
+{
+backface-visibility:hidden;
+-webkit-backface-visibility:hidden;
+-moz-backface-visibility:hidden;
+-o-backface-visibility:hidden;
+}
+#twit_grey
+{
+backface-visibility:hidden;
+-webkit-backface-visibility:hidden;
+-moz-backface-visibility:hidden;
+-o-backface-visibility:hidden;
+}
+.fb_bttn,.twit_bttn
+{
+perspective:1000px;
+-webkit-perspective:1000px;
+-moz-perspective:1000px;
+-o-perspective:1000px;
+transform-style:preserve-3d;
+-webkit-transform-style:preserve-3d;
+-moz-transform-style:preserve-3d;
+-o-transform-style:preserve-3d;
+cursor:pointer;
+}
+.ticker_cont
+{
+	
+	margin-top: 100px;
+	
+	width: 100%;
+	height: 500px;
+	
+	
+	margin-bottom: 100px;
+}
+
+#ticker{
+	width: 20%;
+	float: right;
+	margin-right: 5%;
+	height: 400px;
+	overflow-x:hidden; 
+	overflow-y:auto; 
+	background-color: #E0E0E0;
+}
+#ticker_hding
+{
+	background-color: #474747;
+	height: 12%;
+	width: 100%;
+	float: left;
+}
+.ticker_content
+{
+	height: auto;
+	width: 100%;
+	float: left;
+	border-bottom: 1px groove #000000;
+}
+.ticker_text
+{
+	font-size: 15px;
+	font-family: 'Sintony', sans-serif;
+	padding-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 4%;
+	clear: both;
+}
+.ticker_tym_stamp
+{
+	font-family: 'Sintony', sans-serif;
+	font-size: 10px;
+	color: #7C7C7C;
+	margin-left: 1%;
+}
+.ticker_hd
+{
+	font-size: 17px;
+	font-family: 'Sintony', sans-serif;
+	color: #FFFFFF;
+	margin-left: 4%;
+}
+
+#purpose {
+	margin-left: 30px;
+	margin-right: 30px;
+	font-family: 'Sintony', sans-serif;
+	color: #7C7C7C;
+
+}
+#head_img{
+	margin-left: 9%;
+	margin-bottom: 2%;
+}
+.main_hd{
+	float: left;
+	margin-left: 9%;
+	background-color: #474747;
+	height: auto;
+	width: 60%;
+
+}
+#table tr th{
+	height: auto; 
+	width: 50px;
+	overflow-x:hidden; 
+}

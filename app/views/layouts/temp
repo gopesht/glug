@@ -1,0 +1,12 @@
+<div class="ticker_cont">
+  <div id="ticker_hding"><h4 class="ticker_hd">Upcoming Events</h4></div>
+  <% Notification.all(:order =>'created_at DESC').each do |n| %>
+    <div class="ticker_content">
+      <h4 class="ticker_text"><%= n.content %></h4>
+      <h4 class="ticker_tym_stamp"><%= time_ago_in_words(n.created_at)%> ago</h4>
+      </div>
+
+    <% end %>
+
+
+</div>
