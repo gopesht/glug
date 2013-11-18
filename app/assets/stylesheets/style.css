@@ -84,7 +84,7 @@ cursor:pointer;
 #ticker{
 	width: 20%;
 	float: right;
-	margin-right: 5%;
+	margin-right: 10%;
 	height: 400px;
 	overflow-x:hidden; 
 	overflow-y:auto; 
@@ -144,7 +144,7 @@ cursor:pointer;
 	margin-left: 9%;
 	background-color: #474747;
 	height: auto;
-	width: 60%;
+	width: 55%;
 
 }
 #table tr th{
