@@ -13,10 +13,12 @@
 }
 #downloads{
 	margin-left: 9%;
+	margin-bottom: 25%;
 
 }
 #learn{
 	margin-left: 9%;
+	margin-bottom: 25%;
 }
 #myTab li a {
 	color: #474747;
@@ -38,20 +40,7 @@ background-color: #6cf;
 
 
 }*/
-/*.twit
-{
-position:absolute;
-height:30px;
-right:4%;
-margin-top:2px;
-}
-.fb
-{
-height:30px;
-right:8%;
-margin-top:2px;
-position:absolute;
-}
+/*
 #fb_grey
 {
 backface-visibility:hidden;
@@ -78,22 +67,46 @@ transform-style:preserve-3d;
 -o-transform-style:preserve-3d;
 cursor:pointer;
 }*/
-.ticker_cont
+#main
 {
 	
 	margin-top: 100px;
 	
 	width: 100%;
-	height: 500px;
+	height: 70%;
 	
 	
 	margin-bottom: 100px;
 }
+#welcome{
+	margin-bottom: 10px;
+	margin-left: 9%;
+	width: 55%;
+	height: 400px;
 
+
+}
+#mukti{
+	margin-bottom: 10px;
+	margin-left: 9%;
+	width: 55%;
+	height: 400px;
+	margin-top: 10px;
+}
 #ticker{
 	width: 20%;
 	float: right;
-	margin-right: 10%;
+	margin-right: 11%;
+	height: 400px;
+	overflow-x:hidden; 
+	overflow-y:auto; 
+	background-color: #E0E0E0;
+}
+#ticker1{
+	margin-top: 10px;
+	width: 20%;
+	float: right;
+	margin-right: 11%;
 	height: 400px;
 	overflow-x:hidden; 
 	overflow-y:auto; 
@@ -102,25 +115,29 @@ cursor:pointer;
 #ticker_hding
 {
 	background-color: #474747;
-	height: 12%;
-	width: 100%;
-	float: left;
-}
-.ticker_content
-{
 	height: auto;
 	width: 100%;
 	float: left;
-	border-bottom: 1px groove #000000;
+	position: relative;
 }
-.ticker_text
+
+#content{
+	line-height: 30px;
+	font-size: 15px;
+	font-family: 'Sintony', sans-serif;
+	color: #202020;
+	font-weight: normal;
+}
+#ticker_text
 {
 	font-size: 15px;
 	font-family: 'Sintony', sans-serif;
-	padding-top: 5px;
-	margin-bottom: 5px;
-	margin-left: 4%;
 	clear: both;
+	margin-left: 4%;
+	width: 80%;
+	margin-right: 4%;
+	margin-top: 50px;
+
 }
 .ticker_tym_stamp
 {
@@ -129,7 +146,7 @@ cursor:pointer;
 	color: #7C7C7C;
 	margin-left: 1%;
 }
-.ticker_hd
+#ticker_hding h4
 {
 	font-size: 17px;
 	font-family: 'Sintony', sans-serif;
@@ -137,13 +154,32 @@ cursor:pointer;
 	margin-left: 4%;
 }
 
-#purpose {
+#main_hd h4
+{
+	font-size: 17px;
+	font-family: 'Sintony', sans-serif;
+	margin-left: 2%;
+	color: #ffffff;
+	
+}
+
+
+#purpose p {
 	margin-left: 9%;
 	margin-right: 5%;
 	font-family: 'Sintony', sans-serif;
-	color: #7C7C7C;
+	color: #202020;
 
 }
+.contact_small{
+	font-size: 10px;
+}
+#contact {
+	margin-left: 9%;
+	margin-right: 5%;
+	font-family: 'Sintony', sans-serif;
+	color: #202020;
+} 
 #head_img{
 	margin-left: 9%;
 
@@ -153,16 +189,46 @@ cursor:pointer;
 	width: 100%;
 	margin-bottom: 2%;
 }
-.main_hd{
-	float: left;
-	margin-left: 9%;
+#main_hd {
+	position: relative;
 	background-color: #474747;
 	height: auto;
-	width: 55%;
+	width: 100%;
+	float: left;
 
+}
+.ticker2{
+	height: auto; 
+	width: 100%;
+	overflow-x:hidden; 
 }
 #table tr th{
 	height: auto; 
 	width: 50px;
 	overflow-x:hidden; 
+}
+.footer
+{
+	border-top: 1px solid black;
+	width: 100%;
+	position: relative;
+	height: 10%;
+	margin-bottom: 100px;
+
+}
+.twit
+{
+position:absolute;
+height:30px;
+right:4%;
+margin-top:2px;
+margin-bottom: 10px;
+}
+.fb
+{
+height:30px;
+right:8%;
+margin-top:2px;
+position:absolute;
+margin-bottom: 10px;
 }

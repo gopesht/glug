@@ -27,14 +27,35 @@
 
 
 
- <div class="ticker_cont">
- <div class="main_hd">
-    <h4 class="ticker_hd">Welcome to NIT DGP LUG</h4>
-  </div>
-  <div id="ticker">
-  <div id="ticker_hding"><h4 class="ticker_hd">Upcoming Events</h4></div>
-    <table class="table table-hover table-responsive " rules="rows" id="table">
+ <!-- <div class="ticker_cont">
+ 
+  <div class="main_hd">
+    <h4>Welcome to NIT DGP LUG</h4>
+    The GNU/Linux Users’ Group of NIT Durgapur (NITDGP LUG) is a community of GNU/Linux  users and promoters of Free  and Open  Source Software.
+      
+The Group was established in 2003 by a bunch of FOSS enthusiasts with the objective of spreading awareness about the world of Free and Open Source Softwares and popularising their use in the campus. Since then the group has evolved into a body that is now an active part of the open source community through numerous contributions to a wide range of open source projects. The group strives hard to introduce the philosophy and encourage the use of FOSS across all departments of study, here at NIT Durgapur. We, the members, believe that Software Freedom is as essential as the civil liberty of Freedom of Speech.
 
+  </div>
+    
+  <div id="ticker">
+  
+    
+ -->
+
+    <div class="row-fluid" id="main">
+      <div class="span10" id="welcome">
+        <div id="main_hd"><h4>Welcome to NIT DGP LUG</h4></div>
+        <p class="text-primary lead" id="content">
+           The GNU/Linux Users’ Group of NIT Durgapur (NITDGP LUG) is a community of GNU/Linux  users and promoters of Free  and Open  Source Software.
+      
+The Group was established in 2003 by a bunch of FOSS enthusiasts with the objective of spreading awareness about the world of Free and Open Source Softwares and popularising their use in the campus. Since then the group has evolved into a body that is now an active part of the open source community through numerous contributions to a wide range of open source projects. The group strives hard to introduce the philosophy and encourage the use of FOSS across all departments of study, here at NIT Durgapur. We, the members, believe that Software Freedom is as essential as the civil liberty of Freedom of Speech.
+
+        </p>
+      </div>
+      <div class="span2" id="ticker">
+        <div id="ticker_hding"><h4>Upcoming Events</h4></div>
+        <table class="table table-hover table-responsive " rules="rows" id="table"> 
+   
   <% Notification.all(:order =>'created_at DESC').each do |n| %>
     
       <tr>
@@ -47,11 +68,27 @@
      <% end %> 
       
     </table>
-  </div>
- </div>
- 
-    
+      </div>
+     <div class="span10" id="mukti">
+      <div id="main_hd"><h4>MUKTI</h4></div>
+      <p  class="text-primary lead" id="content">
 
+      MUKTI, the only FOSS Festival of Eastern India, is a three-day meet at NIT Durgapur where we celebrate the freedom of Open Source. Owing to the success attained by it in recent years, it attracts a lot of participation and has been a venue where students of various age groups and domains, professionals (of both IT and non-IT fields), enthusiasts and the curious have come together to get introduced to FOSS, interact with each other and share their experiences. The intense atmosphere of competition is doubled up with Talks and Workshops by few of the brightest and most active minds in the Indian Open Source community.
+
+We will host the 9th edition of our Annual Technical Symposium on Free and Open Source Software, Mukti ‘14 from the 31st of January to the 2nd of February, 2014.</p>
+     </div>
+  
+     <div class="span2" id="ticker1">
+      <div id="ticker_hding"><h4>Mailing Lists</h4></div>
+      <div  class="text-primary lead" id="ticker_text">
+        The NITDGP LUG boasts of a very active mailing list with discussions covering a wide-range of discussions from technical, installation and configuration help to software copyright ethics and holy wars.
+        Join our <a href="https://groups.google.com/d/forum/nitdgplug">mailing list</a> or drop us a mail at
+        nitdgplug@googlegroups.com</div>
+
+     </div>
+    </div>
+ 
+   
 
 
     
